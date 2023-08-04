@@ -1,0 +1,13 @@
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int left=m;
+        for(int i=0;i<n;i++)
+        {
+            nums1[m+i]=nums2[i];
+        }
+        for(int i=0;i<n+m;i++)
+        {
+            nums1[i]=arr[i];
+        }
+    }
+}
